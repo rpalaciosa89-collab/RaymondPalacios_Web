@@ -6,7 +6,6 @@
   "nav": {
     "expertise": "Expertise",
     "work": "Work",
-    "journey": "Journey",
     "about": "About",
     "contact": "Contact",
     "resume": "Résumé"
@@ -49,33 +48,6 @@
     "access": "Access full project",
     "capabilities": "Capabilities"
   },
-  "journey": {
-    "eyebrow": "JOURNEY",
-    "title": "A technical path that keeps moving closer to the system as a whole.",
-    "intro": "Industrial electronics → Industrial engineering → Projects and maintenance leadership → Regulated manufacturing in the United States → Data science and applied AI",
-    "steps": [
-      {
-        "title": "Industrial electronics",
-        "body": "Electrical systems, instrumentation, troubleshooting, and the physical behavior of equipment."
-      },
-      {
-        "title": "Industrial engineering",
-        "body": "Operations, systems thinking, productivity, safety, and multidisciplinary execution."
-      },
-      {
-        "title": "Projects and maintenance leadership",
-        "body": "Electromechanical projects, industrial maintenance, planning, reliability, and operational delivery."
-      },
-      {
-        "title": "Regulated manufacturing in the United States",
-        "body": "Technical leadership around process equipment, clean-room infrastructure, utilities, HVAC, water systems, and regulated operations."
-      },
-      {
-        "title": "Data science and applied AI",
-        "body": "Python, analytics, machine learning, knowledge systems, quantitative research, and digital twins."
-      }
-    ]
-  },
   "about": {
     "eyebrow": "ABOUT",
     "title": "Physical systems. Digital intelligence. Reliable execution.",
@@ -86,6 +58,24 @@
       "PMP®",
       "Master’s in Public Management",
       "M.Sc. in Data Science — in progress"
+    ],
+    "milestones": [
+      {
+        "title": "Industrial electronics → engineering",
+        "body": "Instrumentation, troubleshooting and the physical behavior of equipment, expanded into operations and systems thinking."
+      },
+      {
+        "title": "Projects & maintenance leadership",
+        "body": "Electromechanical projects, industrial maintenance, reliability and operational delivery."
+      },
+      {
+        "title": "Regulated manufacturing in the US",
+        "body": "Technical leadership on process equipment, clean rooms, utilities and regulated operations."
+      },
+      {
+        "title": "Data science & applied AI",
+        "body": "Python, analytics, machine learning and knowledge systems for real operational decisions."
+      }
     ]
   },
   "contact": {

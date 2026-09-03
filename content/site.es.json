@@ -6,7 +6,6 @@
   "nav": {
     "expertise": "Especialidad",
     "work": "Proyectos",
-    "journey": "Trayectoria",
     "about": "Perfil",
     "contact": "Contacto",
     "resume": "CV"
@@ -49,33 +48,6 @@
     "access": "Acceder al proyecto completo",
     "capabilities": "Capacidades"
   },
-  "journey": {
-    "eyebrow": "TRAYECTORIA",
-    "title": "Una evolución técnica cada vez más cerca del sistema completo.",
-    "intro": "Electrónica industrial → Ingeniería industrial → Proyectos y liderazgo de mantenimiento → Manufactura regulada en Estados Unidos → Ciencia de datos e IA aplicada",
-    "steps": [
-      {
-        "title": "Electrónica industrial",
-        "body": "Sistemas eléctricos, instrumentación, diagnóstico y comportamiento físico de los equipos."
-      },
-      {
-        "title": "Ingeniería industrial",
-        "body": "Operaciones, pensamiento sistémico, productividad, seguridad y ejecución multidisciplinaria."
-      },
-      {
-        "title": "Proyectos y liderazgo de mantenimiento",
-        "body": "Proyectos electromecánicos, mantenimiento industrial, planeamiento, confiabilidad y ejecución operacional."
-      },
-      {
-        "title": "Manufactura regulada en Estados Unidos",
-        "body": "Liderazgo técnico alrededor de equipos de proceso, infraestructura clean room, utilities, HVAC, sistemas de agua y operaciones reguladas."
-      },
-      {
-        "title": "Ciencia de datos e IA aplicada",
-        "body": "Python, analítica, aprendizaje automático, sistemas de conocimiento, investigación cuantitativa y gemelos digitales."
-      }
-    ]
-  },
   "about": {
     "eyebrow": "PERFIL",
     "title": "Sistemas físicos. Inteligencia digital. Ejecución confiable.",
@@ -86,6 +58,24 @@
       "PMP®",
       "Máster en Gestión Pública",
       "Máster en Ciencia de Datos — en curso"
+    ],
+    "milestones": [
+      {
+        "title": "Electrónica industrial → ingeniería",
+        "body": "Instrumentación, diagnóstico y comportamiento físico de los equipos, ampliados hacia operaciones y pensamiento sistémico."
+      },
+      {
+        "title": "Proyectos y liderazgo de mantenimiento",
+        "body": "Proyectos electromecánicos, mantenimiento industrial, confiabilidad y ejecución operacional."
+      },
+      {
+        "title": "Manufactura regulada en EE. UU.",
+        "body": "Liderazgo técnico en equipos de proceso, salas limpias, utilities y operaciones reguladas."
+      },
+      {
+        "title": "Ciencia de datos e IA aplicada",
+        "body": "Python, analítica, aprendizaje automático y sistemas de conocimiento para decisiones operativas reales."
+      }
     ]
   },
   "contact": {

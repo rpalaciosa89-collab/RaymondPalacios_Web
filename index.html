@@ -5,7 +5,7 @@
     raymondpalacios.tech — frontend principal
     Dependencias: ninguna; la escena del hero es 100% CSS.
     Configuración editable: content/*.json + SITE_CONFIG en script.js.
-    Estructura: navegación · hero · expertise · work · journey · about · contact · diálogos · footer.
+    Estructura: navegación · hero · expertise · work · about · contact · diálogos · footer.
   -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
@@ -40,7 +40,7 @@
       <a class="brand" href="#top" aria-label="Raymond Palacios home"><span class="brand-mark" aria-hidden="true">RP</span><span class="brand-name">Raymond Palacios</span></a>
       <button class="menu-toggle" id="menuToggle" type="button" aria-expanded="false" aria-controls="siteNav"><span class="sr-only">Open navigation</span><span></span><span></span></button>
       <nav class="site-nav" id="siteNav" aria-label="Primary navigation">
-        <a href="#expertise" data-t="nav.expertise">Expertise</a><a href="#work" data-t="nav.work">Work</a><a href="#journey" data-t="nav.journey">Journey</a><a href="#about" data-t="nav.about">About</a><a href="#contact" data-t="nav.contact">Contact</a>
+        <a href="#expertise" data-t="nav.expertise">Expertise</a><a href="#work" data-t="nav.work">Work</a><a href="#about" data-t="nav.about">About</a><a href="#contact" data-t="nav.contact">Contact</a>
         <div class="nav-actions"><button class="lang-toggle" id="langToggle" type="button" aria-label="Cambiar idioma a español"><span id="langLabel">ES</span></button><a class="nav-resume is-disabled" id="resumeNav" href="#" aria-disabled="true" tabindex="-1" data-t="nav.resume">Résumé</a></div>
       </nav>
     </div>
@@ -78,11 +78,8 @@
     <!-- SELECTED WORK -->
     <section class="section work-section" id="work" aria-labelledby="workTitle"><div class="shell"><div class="section-heading split-heading reveal"><div><p class="eyebrow" data-t="work.eyebrow">SELECTED WORK</p><h2 id="workTitle" data-t="work.title">Evidence over claims.</h2></div><p data-t="work.intro">Selected systems and research directions connecting industry, software, automation, and decision intelligence.</p></div><div class="project-list" id="projectList" aria-live="polite"></div><noscript><p class="no-js-note">Project summaries require JavaScript enhancement; the core professional profile remains available above.</p></noscript></div></section>
 
-    <!-- JOURNEY -->
-    <section class="section journey-section" id="journey" aria-labelledby="journeyTitle"><div class="shell journey-grid"><div class="journey-copy reveal"><p class="eyebrow" data-t="journey.eyebrow">JOURNEY</p><h2 id="journeyTitle" data-t="journey.title">A technical path that keeps moving closer to the system as a whole.</h2><p data-t="journey.intro">Industrial electronics → Industrial engineering → Projects and maintenance leadership → Regulated manufacturing in the United States → Data science and applied AI</p></div><ol class="timeline" id="timelineList"></ol></div></section>
-
     <!-- ABOUT -->
-    <section class="section about-section" id="about" aria-labelledby="aboutTitle"><div class="shell about-grid"><div class="about-visual reveal" aria-hidden="true"><div class="about-frame"><span class="about-monogram">RP</span><span class="about-axis x"></span><span class="about-axis y"></span><span class="about-ring"></span><small>SYSTEMS / DATA / FIELD</small></div></div><div class="about-copy reveal"><p class="eyebrow" data-t="about.eyebrow">ABOUT</p><h2 id="aboutTitle" data-t="about.title">Physical systems. Digital intelligence. Reliable execution.</h2><p class="about-statement" data-t="about.statement">I work at the intersection of physical systems and digital intelligence. My approach combines field experience, structured project leadership, and data-driven experimentation to build solutions that are useful, reliable, and grounded in reality.</p><div class="credential-chips" id="credentialChips"></div></div></div></section>
+    <section class="section about-section" id="about" aria-labelledby="aboutTitle"><div class="shell about-grid"><div class="about-visual reveal" aria-hidden="true"><div class="about-frame"><span class="about-monogram">RP</span><span class="about-axis x"></span><span class="about-axis y"></span><span class="about-ring"></span><small>SYSTEMS / DATA / FIELD</small></div></div><div class="about-copy reveal"><p class="eyebrow" data-t="about.eyebrow">ABOUT</p><h2 id="aboutTitle" data-t="about.title">Physical systems. Digital intelligence. Reliable execution.</h2><p class="about-statement" data-t="about.statement">I work at the intersection of physical systems and digital intelligence. My approach combines field experience, structured project leadership, and data-driven experimentation to build solutions that are useful, reliable, and grounded in reality.</p><ol class="about-milestones" id="aboutTimeline" aria-label="Career path"></ol><div class="credential-chips" id="credentialChips"></div></div></div></section>
 
     <!-- CONTACT -->
     <section class="section contact-section" id="contact" aria-labelledby="contactTitle"><div class="shell contact-grid"><div class="contact-copy reveal"><p class="eyebrow" data-t="contact.eyebrow">CONTACT</p><h2 id="contactTitle" data-t="contact.title">Let’s build systems that perform in the real world.</h2><p data-t="contact.intro">Open to engineering leadership, industrial technology, automation, applied AI, and selected collaboration opportunities across Europe and international markets.</p><div class="public-links" id="publicLinks"></div></div>
