@@ -91,7 +91,8 @@
       "send": "Enviar mensaje",
       "sending": "Enviando…",
       "success": "Mensaje recibido. Gracias — lo revisaré pronto.",
-      "error": "No se pudo enviar el mensaje. Tu texto permanece aquí; inténtalo nuevamente."
+      "error": "No se pudo enviar el mensaje. Tu texto permanece aquí; inténtalo nuevamente.",
+      "mail_fallback": "¿Prefieres email? Escríbeme directo ↗"
     }
   },
   "footer": {

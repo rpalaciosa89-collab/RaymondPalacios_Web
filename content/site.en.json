@@ -91,7 +91,8 @@
       "send": "Send message",
       "sending": "Sending…",
       "success": "Message received. Thank you — I’ll review it soon.",
-      "error": "The message could not be sent. Your text is still here; please try again."
+      "error": "The message could not be sent. Your text is still here; please try again.",
+      "mail_fallback": "Prefer email? Write me directly ↗"
     }
   },
   "footer": {

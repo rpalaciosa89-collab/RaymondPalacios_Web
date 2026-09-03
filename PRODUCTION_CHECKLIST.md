@@ -1,8 +1,8 @@
 # Production checklist
 
-- [ ] `[CONTENT REQUIRED]` professional contact email confirmed.
-- [ ] Public LinkedIn and GitHub URLs confirmed.
-- [ ] Résumé reviewed and placed at a stable public path.
+- [x] Professional contact email configured (`raymond.palacios.ia@gmail.com`).
+- [x] Public LinkedIn and GitHub URLs configured.
+- [ ] Résumé PDF created and placed at a stable public path (CTAs hidden until then).
 - [ ] Original Open Graph image created and placed at `assets/images/og-card.webp`.
 - [ ] Controller/legal identity for Privacy Notice confirmed.
 - [ ] Personal-data retention period defined.
@@ -16,12 +16,10 @@
 - [ ] Strong random `RATE_LIMIT_SECRET`, `ACCESS_TOKEN_SECRET`, `PRIVACY_TOKEN_SECRET` set server-side.
 - [ ] `ALLOWED_ORIGINS` includes production and explicit preview origins only.
 - [ ] Valid/invalid contact submissions tested.
-- [ ] Project access with required privacy consent tested.
-- [ ] Marketing remains optional and unchecked by default.
-- [ ] Reuse of session access token tested; no email exists in localStorage.
-- [ ] Rate limit, honeypot, unexpected property, invalid project and network-failure paths tested.
+- [ ] Contact `mailto:` fallback tested locally (API 501 path).
+- [ ] Rate limit, honeypot, unexpected property and network-failure paths tested.
 - [ ] Privacy verification/export/delete/correction flow tested in staging.
-- [ ] Three.js failure and reduced-motion fallbacks tested.
+- [ ] No legacy project-access endpoint, private content or Three.js references remain.
 - [ ] 360, 390, 768, 1024, 1280 and 1440 px widths reviewed.
 - [ ] Keyboard navigation, focus states and dialog behavior reviewed.
 - [ ] Lighthouse release audit performed; target 95+ without removing essential functionality.

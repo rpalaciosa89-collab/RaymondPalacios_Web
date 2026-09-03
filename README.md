@@ -7,18 +7,16 @@ Static-first personal website built with semantic HTML5, modern CSS, and vanilla
 ```text
 public content JSON ──> script.js ──> enhanced EN/ES UI
 canonical English HTML ────────────> readable fallback without JS
-project gate/contact form ──POST──> api/*.js ──> Supabase PostgreSQL
-                                      └─────────> Resend email notification
-private-content/projects/* ───────> project-access serverless function only
+contact form ──────────POST──> api/contact.js ──> Supabase PostgreSQL
+                                └───────────────> Resend email notification
 ```
 
 ## File map
 
 - `index.html` — semantic one-page interface, public forms and accessible dialog.
 - `style.css` — tokens, layout, components, motion, responsive and accessibility.
-- `script.js` — language, navigation, project rendering, forms, consent and deferred Three.js.
-- `content/` — editable public bilingual content.
-- `private-content/` — expanded project cases; excluded from the static build.
+- `script.js` — language, navigation, project rendering, forms and consent.
+- `content/` — editable public bilingual content, including full project case studies.
 - `api/` — serverless endpoints; server secrets only.
 - `database/migrations/` — PostgreSQL schema, indexes, RLS and rate-limiter function.
 - `scripts/` — development, validation, static checks, build and source audit.
@@ -39,7 +37,7 @@ npm run dev
 
 Open `http://localhost:8080`.
 
-The local static server does **not** emulate `/api/*`. Use your serverless provider's local tooling or test mocks for end-to-end form testing.
+The local static server does **not** emulate `/api/*`. In local runs the contact form gracefully offers a `mailto:` fallback when the API is unreachable.
 
 ## Build
 
@@ -48,23 +46,18 @@ npm run build
 npm run preview
 ```
 
-`dist/` contains only public static files. `private-content/`, serverless source, database migrations and secrets are deliberately excluded.
-
-## Three.js
-
-The hero dynamically imports pinned Three.js `0.179.1` from cdnjs only when the engine nears the viewport. If WebGL, the network, the import, or motion preferences prevent loading, the CSS fallback remains complete. Update the pinned URL only after preview/testing.
+`dist/` contains only public static files. Serverless source, database migrations and secrets are deliberately excluded.
 
 ## CONFIGURACIÓN EDITABLE
 
 Public values are centralized in `SITE_CONFIG` at the top of `script.js`:
 
-- contact email
+- contact email (also powers the `mailto:` fallback)
 - LinkedIn
 - GitHub
-- résumé path
+- résumé path (leave empty to hide the Résumé CTAs)
 - API paths
 - privacy-notice version
-- 3D feature flag
 
 Do not place private credentials there.
 
@@ -81,8 +74,6 @@ Do not place private credentials there.
 ## Security model
 
 The browser never receives the Supabase service role key. Public database roles have no table read/list/update/delete permission. Form writes go through serverless endpoints, which validate input, enforce origin, apply a DB-backed rate limit using a one-way HMAC anti-abuse key, and use the service role only server-side.
-
-The project-access gate is **not** document security. It records professional interest and unlocks non-confidential expanded content. Confidential material requires proper authentication or signed delivery.
 
 ## Privacy
 

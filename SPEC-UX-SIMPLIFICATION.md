@@ -259,3 +259,5 @@ Si `resume` se entrega vacío: se ocultan los botones "Download résumé" (nav +
 | Fecha | Cambio |
 |-------|--------|
 | 2026-09-02 | Creación. Decisiones 1-5 cerradas con el dueño. `INPUT-01` pendiente. |
+| 2026-09-02 | `INPUT-01` resuelto: email/linkedin/github reales; résumé pendiente (CTAs ocultos hasta tener PDF). Loops 1-6 ejecutados y commiteados (`5fcf272`…`e0c2326`). |
+| 2026-09-02 | Corrección factual menor en `cookies.html` (fuera del alcance legal: el token de acceso ya no existe). Pendientes ops: tablas `project_access` en Supabase (ver `MAINTENANCE.md`). |
