@@ -1,7 +1,7 @@
 # SDD — Simplificación e intuición de raymondpalacios.tech v2
 
 **Fecha:** 2026-09-02
-**Estado:** Aprobado para ejecución por loops
+**Estado:** Completado — Loops 1-6 ejecutados, validados y publicados en `main` (`c2f86ed`). Pendientes de producto: résumé PDF (CTAs ocultos) y contenido legal.
 **Método:** Spec-Driven Development + Loop Engineering (cada loop: implementar → validar → evidencia → review humano; si no cumple criterios de salida, el loop se repite con correcciones y retries acotados).
 
 ---
@@ -261,3 +261,4 @@ Si `resume` se entrega vacío: se ocultan los botones "Download résumé" (nav +
 | 2026-09-02 | Creación. Decisiones 1-5 cerradas con el dueño. `INPUT-01` pendiente. |
 | 2026-09-02 | `INPUT-01` resuelto: email/linkedin/github reales; résumé pendiente (CTAs ocultos hasta tener PDF). Loops 1-6 ejecutados y commiteados (`5fcf272`…`e0c2326`). |
 | 2026-09-02 | Corrección factual menor en `cookies.html` (fuera del alcance legal: el token de acceso ya no existe). Pendientes ops: tablas `project_access` en Supabase (ver `MAINTENANCE.md`). |
+| 2026-09-02 | Push publicado en `https://github.com/rpalaciosa89-collab/RaymondPalacios_Web` (`main` @ `c2f86ed`). |
