@@ -45,7 +45,7 @@
     "eyebrow": "TRABAJO SELECCIONADO",
     "title": "Evidencia antes que afirmaciones.",
     "intro": "Sistemas y líneas de investigación que conectan industria, software, automatización e inteligencia para la toma de decisiones.",
-    "access": "Acceder al proyecto completo",
+    "access": "Ver caso de estudio",
     "capabilities": "Capacidades"
   },
   "about": {
@@ -93,18 +93,6 @@
       "success": "Mensaje recibido. Gracias — lo revisaré pronto.",
       "error": "No se pudo enviar el mensaje. Tu texto permanece aquí; inténtalo nuevamente o usa el correo público cuando esté configurado."
     }
-  },
-  "gate": {
-    "title": "Acceder al proyecto completo",
-    "intro": "Registra tu correo para desbloquear el caso ampliado de este proyecto.",
-    "email": "Correo profesional",
-    "name": "Nombre (opcional)",
-    "company": "Empresa (opcional)",
-    "privacy": "Acepto el Aviso de Privacidad para esta solicitud de acceso.",
-    "marketing": "También deseo recibir actualizaciones profesionales ocasionales (opcional).",
-    "submit": "Desbloquear proyecto",
-    "loading": "Desbloqueando…",
-    "error": "No se pudo completar el acceso. Tus datos escritos se han conservado."
   },
   "footer": {
     "positioning": "Sistemas industriales · Automatización inteligente · Transformación basada en datos",

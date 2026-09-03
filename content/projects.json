@@ -19,7 +19,31 @@
       "Industrial Assets",
       "Monitoring",
       "Applied AI"
-    ]
+    ],
+    "detail": {
+      "en": {
+        "problem": "Industrial assets often produce fragmented operational signals without a coherent asset-level model.",
+        "approach": "TwinTrust is being explored as a practical digital-twin layer for motors, pumps, and other critical assets, combining equipment context, observations, and decision-support logic.",
+        "architecture": [
+          "Asset identity and operating context",
+          "Sensor / maintenance observations",
+          "State representation",
+          "Decision-support layer"
+        ],
+        "learning": "The current work is a product direction in development; no production deployment or verified performance claim is presented here."
+      },
+      "es": {
+        "problem": "Los activos industriales suelen producir señales operativas fragmentadas sin un modelo coherente a nivel de activo.",
+        "approach": "TwinTrust se explora como una capa práctica de gemelo digital para motores, bombas y otros activos críticos, combinando contexto del equipo, observaciones y lógica de soporte a decisiones.",
+        "architecture": [
+          "Identidad del activo y contexto operativo",
+          "Observaciones de sensores / mantenimiento",
+          "Representación de estado",
+          "Capa de soporte a decisiones"
+        ],
+        "learning": "El trabajo actual es una línea de producto en desarrollo; aquí no se presenta un despliegue en producción ni una afirmación de desempeño verificada."
+      }
+    }
   },
   {
     "id": "industrial-knowledge-systems",
@@ -41,7 +65,31 @@
       "Hybrid Retrieval",
       "Knowledge Systems",
       "AI"
-    ]
+    ],
+    "detail": {
+      "en": {
+        "problem": "Technical knowledge can be scattered across documents, images, teams, and systems, making retrieval slow and inconsistent.",
+        "approach": "A prototype architecture combines multi-tenant separation with hybrid retrieval so technical evidence can be surfaced with better context and traceability.",
+        "architecture": [
+          "Tenant-aware knowledge bases",
+          "Visual and textual ingestion",
+          "BM25 + vector retrieval",
+          "Rank fusion and grounded response"
+        ],
+        "learning": "Prototype status. The focus is retrieval quality and operational usefulness rather than claiming autonomous decision authority."
+      },
+      "es": {
+        "problem": "El conocimiento técnico puede estar disperso entre documentos, imágenes, equipos y sistemas, haciendo la recuperación lenta e inconsistente.",
+        "approach": "Una arquitectura prototipo combina separación multi-tenant con recuperación híbrida para mostrar evidencia técnica con mejor contexto y trazabilidad.",
+        "architecture": [
+          "Bases de conocimiento por tenant",
+          "Ingesta visual y textual",
+          "BM25 + recuperación vectorial",
+          "Fusión de ranking y respuesta fundamentada"
+        ],
+        "learning": "Estado: prototipo. El foco es la calidad de recuperación y la utilidad operacional, no atribuir autoridad de decisión autónoma."
+      }
+    }
   },
   {
     "id": "automated-compliance-reporting",
@@ -64,7 +112,31 @@
       "PDF",
       "Automation",
       "QA"
-    ]
+    ],
+    "detail": {
+      "en": {
+        "problem": "A recurring reporting process required consistent extraction, formatting, and delivery across three systems and 33 monthly PDF outputs.",
+        "approach": "The workflow was structured around SQL extraction, controlled Excel formatting, PDF generation, flexible column handling, and quality checks.",
+        "architecture": [
+          "Read-only SQL extraction",
+          "Template-aware Excel processing",
+          "Independent PDF generation",
+          "Naming, date, and QA controls"
+        ],
+        "learning": "Internal workflow. The emphasis is repeatability, traceability, and safe handling of changing report structures."
+      },
+      "es": {
+        "problem": "Un proceso recurrente requería extracción, formato y entrega consistentes para tres sistemas y 33 salidas PDF mensuales.",
+        "approach": "El flujo se estructuró alrededor de extracción SQL, formato controlado en Excel, generación PDF, manejo flexible de columnas y controles de calidad.",
+        "architecture": [
+          "Extracción SQL de solo lectura",
+          "Procesamiento Excel sensible a plantilla",
+          "Generación independiente de PDF",
+          "Controles de nombre, fecha y QA"
+        ],
+        "learning": "Flujo interno. El énfasis está en repetibilidad, trazabilidad y manejo seguro de estructuras de reporte cambiantes."
+      }
+    }
   },
   {
     "id": "quantitative-decision-research",
@@ -86,6 +158,30 @@
       "Risk Analysis",
       "Python",
       "Research"
-    ]
+    ],
+    "detail": {
+      "en": {
+        "problem": "Single-point forecasts can hide uncertainty and produce false precision in decisions involving volatile inputs.",
+        "approach": "Research uses Monte Carlo simulation and structured scenario analysis to inspect distributions, downside exposure, and sensitivity rather than rely on a single expected value.",
+        "architecture": [
+          "Input assumptions",
+          "Probability distributions",
+          "Monte Carlo simulation",
+          "Risk and sensitivity interpretation"
+        ],
+        "learning": "Research status. Outputs support thinking under uncertainty and are not presented as investment advice or guaranteed predictions."
+      },
+      "es": {
+        "problem": "Los pronósticos de un solo punto pueden ocultar incertidumbre y generar falsa precisión en decisiones con variables volátiles.",
+        "approach": "La investigación usa simulación Monte Carlo y análisis estructurado de escenarios para observar distribuciones, exposición a pérdidas y sensibilidad, en lugar de depender de un único valor esperado.",
+        "architecture": [
+          "Supuestos de entrada",
+          "Distribuciones de probabilidad",
+          "Simulación Monte Carlo",
+          "Interpretación de riesgo y sensibilidad"
+        ],
+        "learning": "Estado: investigación. Los resultados apoyan el razonamiento bajo incertidumbre y no se presentan como asesoría de inversión ni predicciones garantizadas."
+      }
+    }
   }
 ]
