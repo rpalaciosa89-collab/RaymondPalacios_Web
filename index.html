@@ -3,7 +3,7 @@
 <head>
   <!--
     raymondpalacios.tech — frontend principal
-    Dependencias: ninguna crítica; Three.js se importa dinámicamente y tiene fallback CSS.
+    Dependencias: ninguna; la escena del hero es 100% CSS.
     Configuración editable: content/*.json + SITE_CONFIG en script.js.
     Estructura: navegación · hero · expertise · work · journey · about · contact · diálogos · footer.
   -->
@@ -59,7 +59,6 @@
           <ul class="credibility hero-enter"><li><strong>7+</strong><span data-t="hero.years">years across industrial environments</span></li><li><strong>PE + US</strong><span data-t="hero.regions">Peru + United States experience</span></li><li><strong>PMP®</strong><span data-t="hero.pmp">PMP® certified</span></li></ul>
         </div>
         <div class="engine-stage hero-enter" id="engineStage" aria-hidden="true">
-          <canvas id="engineCanvas" class="engine-canvas"></canvas>
           <div class="engine-fallback" id="engineFallback"><div class="fallback-ring r1"></div><div class="fallback-ring r2"></div><div class="fallback-ring r3"></div><div class="fallback-core"></div><span class="fallback-node n1"></span><span class="fallback-node n2"></span><span class="fallback-node n3"></span></div>
           <div class="engine-caption"><span class="live-dot"></span><span data-t="hero.engine">PHYSICAL SYSTEM → SIGNAL → DECISION</span></div>
         </div>
