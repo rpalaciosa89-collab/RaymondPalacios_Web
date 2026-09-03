@@ -91,7 +91,7 @@
       "send": "Enviar mensaje",
       "sending": "Enviando…",
       "success": "Mensaje recibido. Gracias — lo revisaré pronto.",
-      "error": "No se pudo enviar el mensaje. Tu texto permanece aquí; inténtalo nuevamente o usa el correo público cuando esté configurado."
+      "error": "No se pudo enviar el mensaje. Tu texto permanece aquí; inténtalo nuevamente."
     }
   },
   "footer": {
