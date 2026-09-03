@@ -1,0 +1,91 @@
+[
+  {
+    "id": "twintrust",
+    "status": {
+      "en": "In development",
+      "es": "En desarrollo"
+    },
+    "title": "TwinTrust",
+    "category": {
+      "en": "Digital Twin Systems",
+      "es": "Sistemas de Gemelo Digital"
+    },
+    "summary": {
+      "en": "A digital-twin direction for industrial motors, pumps, and critical assets, connecting physical behavior with structured monitoring and decision support.",
+      "es": "Una línea de gemelos digitales para motores, bombas y activos industriales críticos, conectando el comportamiento físico con monitoreo estructurado y soporte a decisiones."
+    },
+    "tech": [
+      "Digital Twins",
+      "Industrial Assets",
+      "Monitoring",
+      "Applied AI"
+    ]
+  },
+  {
+    "id": "industrial-knowledge-systems",
+    "status": {
+      "en": "Prototype",
+      "es": "Prototipo"
+    },
+    "title": "Industrial Knowledge Systems",
+    "category": {
+      "en": "Applied AI / Knowledge",
+      "es": "IA Aplicada / Conocimiento"
+    },
+    "summary": {
+      "en": "A visual, multi-tenant RAG architecture using hybrid retrieval to make technical knowledge more accessible, traceable, and useful in operational contexts.",
+      "es": "Arquitectura RAG visual y multi-tenant con recuperación híbrida para volver el conocimiento técnico más accesible, trazable y útil en contextos operativos."
+    },
+    "tech": [
+      "RAG",
+      "Hybrid Retrieval",
+      "Knowledge Systems",
+      "AI"
+    ]
+  },
+  {
+    "id": "automated-compliance-reporting",
+    "status": {
+      "en": "Internal workflow",
+      "es": "Flujo interno"
+    },
+    "title": "Automated Compliance Reporting",
+    "category": {
+      "en": "Workflow Automation",
+      "es": "Automatización de Flujos"
+    },
+    "summary": {
+      "en": "Automation of a SQL → Excel → PDF workflow for three systems and 33 monthly reports, with formatting, traceability, flexible columns, and quality control.",
+      "es": "Automatización de un flujo SQL → Excel → PDF para tres sistemas y 33 reportes mensuales, con formato, trazabilidad, columnas flexibles y control de calidad."
+    },
+    "tech": [
+      "SQL",
+      "Excel",
+      "PDF",
+      "Automation",
+      "QA"
+    ]
+  },
+  {
+    "id": "quantitative-decision-research",
+    "status": {
+      "en": "Research",
+      "es": "Investigación"
+    },
+    "title": "Quantitative Decision Research",
+    "category": {
+      "en": "Decision Intelligence",
+      "es": "Inteligencia de Decisión"
+    },
+    "summary": {
+      "en": "Monte Carlo simulation and structured risk analysis applied to quantitative decisions, emphasizing uncertainty rather than deterministic claims.",
+      "es": "Simulación Monte Carlo y análisis estructurado de riesgo aplicados a decisiones cuantitativas, con énfasis en la incertidumbre y no en afirmaciones deterministas."
+    },
+    "tech": [
+      "Monte Carlo",
+      "Risk Analysis",
+      "Python",
+      "Research"
+    ]
+  }
+]

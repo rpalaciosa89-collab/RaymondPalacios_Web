@@ -1,0 +1,11 @@
+{
+  "problem": "Un proceso recurrente requería extracción, formato y entrega consistentes para tres sistemas y 33 salidas PDF mensuales.",
+  "approach": "El flujo se estructuró alrededor de extracción SQL, formato controlado en Excel, generación PDF, manejo flexible de columnas y controles de calidad.",
+  "architecture": [
+    "Extracción SQL de solo lectura",
+    "Procesamiento Excel sensible a plantilla",
+    "Generación independiente de PDF",
+    "Controles de nombre, fecha y QA"
+  ],
+  "learning": "Flujo interno. El énfasis está en repetibilidad, trazabilidad y manejo seguro de estructuras de reporte cambiantes."
+}

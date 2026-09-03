@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "title": "Raymond Palacios — Industrial Systems, Automation & Applied AI",
+    "description": "Industrial engineer, PMP®, and industrial electronics technologist bridging automation, reliability, project leadership, data science, and applied AI."
+  },
+  "nav": {
+    "expertise": "Expertise",
+    "work": "Work",
+    "journey": "Journey",
+    "about": "About",
+    "contact": "Contact",
+    "resume": "Résumé"
+  },
+  "hero": {
+    "eyebrow": "ENGINEERING × INTELLIGENCE",
+    "title": "I engineer systems that turn complexity into reliable performance.",
+    "lead": "Industrial engineer, PMP®, and industrial electronics technologist bridging automation, reliability, project leadership, and applied AI—from the plant floor to data-driven decision systems.",
+    "primary": "Explore selected work",
+    "resume": "Download résumé",
+    "connect": "Let’s connect",
+    "years": "years across industrial environments",
+    "regions": "Peru + United States experience",
+    "pmp": "PMP® certified",
+    "engine": "PHYSICAL SYSTEM → SIGNAL → DECISION"
+  },
+  "expertise": {
+    "eyebrow": "CORE EXPERTISE",
+    "title": "Where industrial depth meets intelligent systems.",
+    "intro": "I understand both the physical consequences of a decision on the plant floor and the logic of the data that can improve it.",
+    "items": [
+      {
+        "title": "Industrial Automation & Reliability",
+        "body": "Automation, instrumentation, maintenance strategy, troubleshooting, utilities, process systems, reliability and continuous improvement."
+      },
+      {
+        "title": "Applied AI & Data Systems",
+        "body": "Python, analytics, machine learning, knowledge systems, decision support, digital twins and practical AI for real operational contexts."
+      },
+      {
+        "title": "Projects & Operational Leadership",
+        "body": "PMP-based delivery, multidisciplinary coordination, safety, quality, regulated operations and execution across complex industrial environments."
+      }
+    ]
+  },
+  "work": {
+    "eyebrow": "SELECTED WORK",
+    "title": "Evidence over claims.",
+    "intro": "Selected systems and research directions connecting industry, software, automation, and decision intelligence.",
+    "access": "Access full project",
+    "capabilities": "Capabilities"
+  },
+  "journey": {
+    "eyebrow": "JOURNEY",
+    "title": "A technical path that keeps moving closer to the system as a whole.",
+    "intro": "Industrial electronics → Industrial engineering → Projects and maintenance leadership → Regulated manufacturing in the United States → Data science and applied AI",
+    "steps": [
+      {
+        "title": "Industrial electronics",
+        "body": "Electrical systems, instrumentation, troubleshooting, and the physical behavior of equipment."
+      },
+      {
+        "title": "Industrial engineering",
+        "body": "Operations, systems thinking, productivity, safety, and multidisciplinary execution."
+      },
+      {
+        "title": "Projects and maintenance leadership",
+        "body": "Electromechanical projects, industrial maintenance, planning, reliability, and operational delivery."
+      },
+      {
+        "title": "Regulated manufacturing in the United States",
+        "body": "Technical leadership around process equipment, clean-room infrastructure, utilities, HVAC, water systems, and regulated operations."
+      },
+      {
+        "title": "Data science and applied AI",
+        "body": "Python, analytics, machine learning, knowledge systems, quantitative research, and digital twins."
+      }
+    ]
+  },
+  "about": {
+    "eyebrow": "ABOUT",
+    "title": "Physical systems. Digital intelligence. Reliable execution.",
+    "statement": "I work at the intersection of physical systems and digital intelligence. My approach combines field experience, structured project leadership, and data-driven experimentation to build solutions that are useful, reliable, and grounded in reality.",
+    "credentials": [
+      "Industrial Engineering",
+      "Industrial Electronics",
+      "PMP®",
+      "Master’s in Public Management",
+      "M.Sc. in Data Science — in progress"
+    ]
+  },
+  "contact": {
+    "eyebrow": "CONTACT",
+    "title": "Let’s build systems that perform in the real world.",
+    "intro": "Open to engineering leadership, industrial technology, automation, applied AI, and selected collaboration opportunities across Europe and international markets.",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "subject": "Reason for contact",
+      "message": "Message",
+      "privacy": "I accept the Privacy Notice for processing this message.",
+      "send": "Send message",
+      "sending": "Sending…",
+      "success": "Message received. Thank you — I’ll review it soon.",
+      "error": "The message could not be sent. Your text is still here; please try again or use the public email once configured."
+    }
+  },
+  "gate": {
+    "title": "Access full project",
+    "intro": "Register your email to unlock the expanded case study for this project.",
+    "email": "Work email",
+    "name": "Name (optional)",
+    "company": "Company (optional)",
+    "privacy": "I accept the Privacy Notice for this access request.",
+    "marketing": "I would also like to receive occasional professional updates (optional).",
+    "submit": "Unlock project",
+    "loading": "Unlocking…",
+    "error": "Access could not be completed. Your entries have been preserved."
+  },
+  "footer": {
+    "positioning": "Industrial Systems · Intelligent Automation · Data-Driven Transformation",
+    "location": "Peru · International",
+    "privacy": "Privacy",
+    "cookies": "Cookies"
+  }
+}

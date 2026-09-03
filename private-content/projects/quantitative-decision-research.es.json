@@ -1,0 +1,11 @@
+{
+  "problem": "Los pronósticos de un solo punto pueden ocultar incertidumbre y generar falsa precisión en decisiones con variables volátiles.",
+  "approach": "La investigación usa simulación Monte Carlo y análisis estructurado de escenarios para observar distribuciones, exposición a pérdidas y sensibilidad, en lugar de depender de un único valor esperado.",
+  "architecture": [
+    "Supuestos de entrada",
+    "Distribuciones de probabilidad",
+    "Simulación Monte Carlo",
+    "Interpretación de riesgo y sensibilidad"
+  ],
+  "learning": "Estado: investigación. Los resultados apoyan el razonamiento bajo incertidumbre y no se presentan como asesoría de inversión ni predicciones garantizadas."
+}

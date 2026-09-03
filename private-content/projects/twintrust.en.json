@@ -1,0 +1,11 @@
+{
+  "problem": "Industrial assets often produce fragmented operational signals without a coherent asset-level model.",
+  "approach": "TwinTrust is being explored as a practical digital-twin layer for motors, pumps, and other critical assets, combining equipment context, observations, and decision-support logic.",
+  "architecture": [
+    "Asset identity and operating context",
+    "Sensor / maintenance observations",
+    "State representation",
+    "Decision-support layer"
+  ],
+  "learning": "The current work is a product direction in development; no production deployment or verified performance claim is presented here."
+}

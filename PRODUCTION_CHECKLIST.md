@@ -1,0 +1,28 @@
+# Production checklist
+
+- [ ] `[CONTENT REQUIRED]` professional contact email confirmed.
+- [ ] Public LinkedIn and GitHub URLs confirmed.
+- [ ] Résumé reviewed and placed at a stable public path.
+- [ ] Original Open Graph image created and placed at `assets/images/og-card.webp`.
+- [ ] Controller/legal identity for Privacy Notice confirmed.
+- [ ] Personal-data retention period defined.
+- [ ] Privacy and cookies text professionally reviewed.
+- [ ] Applicable Peru Law No. 29733 / current regulation obligations verified before launch.
+- [ ] GDPR applicability assessed for European audiences.
+- [ ] Need for Peruvian personal-data bank registration assessed.
+- [ ] Supabase production project created and migration applied.
+- [ ] RLS and lack of browser read permissions verified from an anonymous client.
+- [ ] `CONTACT_TO_EMAIL`, sender identity and Resend configured.
+- [ ] Strong random `RATE_LIMIT_SECRET`, `ACCESS_TOKEN_SECRET`, `PRIVACY_TOKEN_SECRET` set server-side.
+- [ ] `ALLOWED_ORIGINS` includes production and explicit preview origins only.
+- [ ] Valid/invalid contact submissions tested.
+- [ ] Project access with required privacy consent tested.
+- [ ] Marketing remains optional and unchecked by default.
+- [ ] Reuse of session access token tested; no email exists in localStorage.
+- [ ] Rate limit, honeypot, unexpected property, invalid project and network-failure paths tested.
+- [ ] Privacy verification/export/delete/correction flow tested in staging.
+- [ ] Three.js failure and reduced-motion fallbacks tested.
+- [ ] 360, 390, 768, 1024, 1280 and 1440 px widths reviewed.
+- [ ] Keyboard navigation, focus states and dialog behavior reviewed.
+- [ ] Lighthouse release audit performed; target 95+ without removing essential functionality.
+- [ ] Production deployment preview approved and rollback procedure verified.

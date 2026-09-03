@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "title": "Raymond Palacios — Sistemas Industriales, Automatización e IA Aplicada",
+    "description": "Ingeniero industrial, PMP® y técnico en electrónica industrial que integra automatización, confiabilidad, dirección de proyectos, ciencia de datos e IA aplicada."
+  },
+  "nav": {
+    "expertise": "Especialidad",
+    "work": "Proyectos",
+    "journey": "Trayectoria",
+    "about": "Perfil",
+    "contact": "Contacto",
+    "resume": "CV"
+  },
+  "hero": {
+    "eyebrow": "INGENIERÍA × INTELIGENCIA",
+    "title": "Diseño sistemas que convierten la complejidad en desempeño confiable.",
+    "lead": "Ingeniero industrial, PMP® y técnico en electrónica industrial. Integro automatización, confiabilidad, dirección de proyectos e IA aplicada, desde la planta hasta los sistemas de decisión basados en datos.",
+    "primary": "Ver trabajo seleccionado",
+    "resume": "Descargar CV",
+    "connect": "Conversemos",
+    "years": "años en entornos industriales",
+    "regions": "Experiencia en Perú + Estados Unidos",
+    "pmp": "PMP® certificado",
+    "engine": "SISTEMA FÍSICO → SEÑAL → DECISIÓN"
+  },
+  "expertise": {
+    "eyebrow": "CAPACIDADES PRINCIPALES",
+    "title": "Donde la profundidad industrial se encuentra con los sistemas inteligentes.",
+    "intro": "Comprendo tanto las consecuencias físicas de una decisión en planta como la lógica de los datos que puede mejorarla.",
+    "items": [
+      {
+        "title": "Automatización Industrial y Confiabilidad",
+        "body": "Automatización, instrumentación, estrategia de mantenimiento, diagnóstico de fallas, utilities, sistemas de proceso, confiabilidad y mejora continua."
+      },
+      {
+        "title": "IA Aplicada y Sistemas de Datos",
+        "body": "Python, analítica, aprendizaje automático, sistemas de conocimiento, soporte a decisiones, gemelos digitales e IA práctica para contextos operativos reales."
+      },
+      {
+        "title": "Proyectos y Liderazgo Operacional",
+        "body": "Ejecución basada en PMP, coordinación multidisciplinaria, seguridad, calidad, operaciones reguladas y entrega en entornos industriales complejos."
+      }
+    ]
+  },
+  "work": {
+    "eyebrow": "TRABAJO SELECCIONADO",
+    "title": "Evidencia antes que afirmaciones.",
+    "intro": "Sistemas y líneas de investigación que conectan industria, software, automatización e inteligencia para la toma de decisiones.",
+    "access": "Acceder al proyecto completo",
+    "capabilities": "Capacidades"
+  },
+  "journey": {
+    "eyebrow": "TRAYECTORIA",
+    "title": "Una evolución técnica cada vez más cerca del sistema completo.",
+    "intro": "Electrónica industrial → Ingeniería industrial → Proyectos y liderazgo de mantenimiento → Manufactura regulada en Estados Unidos → Ciencia de datos e IA aplicada",
+    "steps": [
+      {
+        "title": "Electrónica industrial",
+        "body": "Sistemas eléctricos, instrumentación, diagnóstico y comportamiento físico de los equipos."
+      },
+      {
+        "title": "Ingeniería industrial",
+        "body": "Operaciones, pensamiento sistémico, productividad, seguridad y ejecución multidisciplinaria."
+      },
+      {
+        "title": "Proyectos y liderazgo de mantenimiento",
+        "body": "Proyectos electromecánicos, mantenimiento industrial, planeamiento, confiabilidad y ejecución operacional."
+      },
+      {
+        "title": "Manufactura regulada en Estados Unidos",
+        "body": "Liderazgo técnico alrededor de equipos de proceso, infraestructura clean room, utilities, HVAC, sistemas de agua y operaciones reguladas."
+      },
+      {
+        "title": "Ciencia de datos e IA aplicada",
+        "body": "Python, analítica, aprendizaje automático, sistemas de conocimiento, investigación cuantitativa y gemelos digitales."
+      }
+    ]
+  },
+  "about": {
+    "eyebrow": "PERFIL",
+    "title": "Sistemas físicos. Inteligencia digital. Ejecución confiable.",
+    "statement": "Trabajo en la intersección entre los sistemas físicos y la inteligencia digital. Mi enfoque combina experiencia de campo, liderazgo estructurado de proyectos y experimentación basada en datos para construir soluciones útiles, confiables y conectadas con la realidad.",
+    "credentials": [
+      "Ingeniería Industrial",
+      "Electrónica Industrial",
+      "PMP®",
+      "Máster en Gestión Pública",
+      "Máster en Ciencia de Datos — en curso"
+    ]
+  },
+  "contact": {
+    "eyebrow": "CONTACTO",
+    "title": "Construyamos sistemas que rindan en el mundo real.",
+    "intro": "Abierto a oportunidades seleccionadas en liderazgo de ingeniería, tecnología industrial, automatización, IA aplicada y colaboración en Europa y mercados internacionales.",
+    "form": {
+      "name": "Nombre",
+      "email": "Correo",
+      "subject": "Motivo de contacto",
+      "message": "Mensaje",
+      "privacy": "Acepto el Aviso de Privacidad para procesar este mensaje.",
+      "send": "Enviar mensaje",
+      "sending": "Enviando…",
+      "success": "Mensaje recibido. Gracias — lo revisaré pronto.",
+      "error": "No se pudo enviar el mensaje. Tu texto permanece aquí; inténtalo nuevamente o usa el correo público cuando esté configurado."
+    }
+  },
+  "gate": {
+    "title": "Acceder al proyecto completo",
+    "intro": "Registra tu correo para desbloquear el caso ampliado de este proyecto.",
+    "email": "Correo profesional",
+    "name": "Nombre (opcional)",
+    "company": "Empresa (opcional)",
+    "privacy": "Acepto el Aviso de Privacidad para esta solicitud de acceso.",
+    "marketing": "También deseo recibir actualizaciones profesionales ocasionales (opcional).",
+    "submit": "Desbloquear proyecto",
+    "loading": "Desbloqueando…",
+    "error": "No se pudo completar el acceso. Tus datos escritos se han conservado."
+  },
+  "footer": {
+    "positioning": "Sistemas industriales · Automatización inteligente · Transformación basada en datos",
+    "location": "Perú · Internacional",
+    "privacy": "Privacidad",
+    "cookies": "Cookies"
+  }
+}

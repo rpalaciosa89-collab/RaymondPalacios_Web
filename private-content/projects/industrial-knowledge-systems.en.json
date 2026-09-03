@@ -1,0 +1,11 @@
+{
+  "problem": "Technical knowledge can be scattered across documents, images, teams, and systems, making retrieval slow and inconsistent.",
+  "approach": "A prototype architecture combines multi-tenant separation with hybrid retrieval so technical evidence can be surfaced with better context and traceability.",
+  "architecture": [
+    "Tenant-aware knowledge bases",
+    "Visual and textual ingestion",
+    "BM25 + vector retrieval",
+    "Rank fusion and grounded response"
+  ],
+  "learning": "Prototype status. The focus is retrieval quality and operational usefulness rather than claiming autonomous decision authority."
+}

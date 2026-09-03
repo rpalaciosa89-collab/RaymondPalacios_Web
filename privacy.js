@@ -1,0 +1,11 @@
+/** Privacy request client. It never reveals data until a signed verification token is returned by email. */
+const endpoint='/api/privacy-request';
+const form=document.querySelector('#privacyForm');
+const status=document.querySelector('#privacyStatus');
+const correctionField=document.querySelector('#correctionField');
+const result=document.querySelector('#privacyResult');
+form.action.addEventListener('change',()=>{correctionField.hidden=form.action.value!=='correct'});
+form.addEventListener('submit',async event=>{event.preventDefault();status.className='form-status';status.textContent='';if(!form.checkValidity()){form.reportValidity();return}const correction=form.action.value==='correct'?{name:form.corrected_name.value.trim(),company:form.corrected_company.value.trim()}:null;if(form.action.value==='correct'&&!correction.name&&!correction.company){status.className='form-status error';status.textContent='Enter at least one corrected value / Ingresa al menos un dato corregido.';return}const payload={mode:'request',email:form.email.value.trim(),action:form.action.value,correction,website:form.website.value};try{const r=await post(payload);status.className='form-status ok';status.textContent='Verification email sent / Correo de verificación enviado.'}catch{status.className='form-status error';status.textContent='Request could not be started / No se pudo iniciar la solicitud.'}});
+const params=new URLSearchParams(location.search);const token=params.get('token');if(token){verify(token)}
+async function verify(requestToken){status.textContent='Verifying… / Verificando…';try{const data=await post({mode:'verify',request_token:requestToken,website:''});status.className='form-status ok';status.textContent='Verified / Verificado';result.hidden=false;result.querySelector('pre').textContent=data.data?JSON.stringify(data.data,null,2):`Completed: ${data.action}`;}catch{status.className='form-status error';status.textContent='Verification failed or expired / La verificación falló o expiró.'}}
+async function post(body){const r=await fetch(endpoint,{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify(body)});const data=await r.json().catch(()=>({}));if(!r.ok)throw new Error(data.error||'request_failed');return data}
