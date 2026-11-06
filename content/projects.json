@@ -48,8 +48,8 @@
   {
     "id": "industrial-knowledge-systems",
     "status": {
-      "en": "Prototype",
-      "es": "Prototipo"
+      "en": "In development",
+      "es": "En desarrollo"
     },
     "title": "Industrial Knowledge Systems",
     "category": {
@@ -141,8 +141,8 @@
   {
     "id": "quantitative-decision-research",
     "status": {
-      "en": "Research",
-      "es": "Investigación"
+      "en": "In development",
+      "es": "En desarrollo"
     },
     "title": "Quantitative Decision Research",
     "category": {
