@@ -94,8 +94,8 @@
   {
     "id": "automated-compliance-reporting",
     "status": {
-      "en": "In development",
-      "es": "En desarrollo"
+      "en": "Internal workflow",
+      "es": "Flujo interno"
     },
     "title": "Automated Compliance Reporting",
     "category": {
